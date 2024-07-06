@@ -2909,34 +2909,142 @@
               "distance": 800
             },
             {
-              "to": "Nuevos Ministerios",
+              "to": "Plaza de España",
               "distance": 900
             }
           ]
         },
         {
-          "name": "Nuevos Ministerios",
+          "name": "Plaza de España",
           "connections": [
             {
               "to": "Tribunal",
               "distance": 900
             },
             {
-              "to": "Nuevos Ministerios",
+              "to": "Principe Pío",
               "distance": 1000
             }
           ]
         },
         {
-          "name": "Nuevos Ministerios",
+          "name": "Principe Pío",
           "connections": [
             {
-              "to": "Tribunal",
+              "to": "Plaza de España",
               "distance": 1000
             },
             {
-              "to": "Santiago Bernabéu",
+              "to": "Lago",
               "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Lago",
+          "connections": [
+            {
+              "to": "Batán",
+              "distance": 1050
+            },
+            {
+              "to": "Principe Pío",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Batán",
+          "connections": [
+            {
+              "to": "Lago",
+              "distance": 1050
+            },
+            {
+              "to": "Casa de Campo",
+              "distance": 1230
+            }
+          ]
+        },
+        {
+          "name": "Casa de Campo",
+          "connections": [
+            {
+              "to": "Batán",
+              "distance": 1230
+            },
+            {
+              "to": "Colonia Jardín",
+              "distance": 1750
+            }
+          ]
+        },
+        {
+          "name": "Colonia Jardín",
+          "connections": [
+            {
+              "to": "Casa de Campo",
+              "distance": 1750
+            },
+            {
+              "to": "Aviación Española",
+              "distance": 1750
+            }
+          ]
+        },
+        {
+          "name": "Aviación Española",
+          "connections": [
+            {
+              "to": "Colonia Jardín",
+              "distance": 1750
+            },
+            {
+              "to": "Cuatro Vientos",
+              "distance": 1050
+            }
+          ]
+        },
+        {
+          "name": "Cuatro Vientos",
+          "connections": [
+            {
+              "to": "Aviación Española",
+              "distance": 1050
+            },
+            {
+              "to": "Joaquín Vilumbrales",
+              "distance": 2250
+            }
+          ]
+        },
+        {
+          "name": "Joaquín Vilumbrales",
+          "connections": [
+            {
+              "to": "Puerta del Sur",
+              "distance": 1050
+            },
+            {
+              "to": "Cuatro Vientos",
+              "distance": 2250
+            }
+          ]
+        },
+        {
+          "name": "Puerta del Sur",
+          "connections": [
+            {
+              "to": "Joaquín Vilumbrales",
+              "distance": 1050
+            },
+            {
+              "to": "Parque Lisboa",
+              "distance": 1600
+            },
+            {
+              "to": "San Nicasio",
+              "distance": 1050
             }
           ]
         }
@@ -3038,6 +3146,379 @@
             {
               "to": "Las Águilas",
               "distance": 1600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 12",
+      "stations": [
+        {
+          "name": "Puerta del Sur",
+          "connections": [
+            {
+              "to": "Parque Lisboa",
+              "distance": 1600
+            },
+            {
+              "to": "San Nicasio",
+              "distance": 1050
+            },
+            {
+              "to": "Joaquín Vilumbrales",
+              "distance": 1050
+            }
+          ]
+        },
+        {
+          "name": "Parque Lisboa",
+          "connections": [
+            {
+              "to": "Alcorcón Central",
+              "distance": 1100
+            },
+            {
+              "to": "Puerta del Sur",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Alcorcón Central",
+          "connections": [
+            {
+              "to": "Parque Oeste",
+              "distance": 1600
+            },
+            {
+              "to": "Parque Lisboa",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Parque Oeste",
+          "connections": [
+            {
+              "to": "Alcorcón Central",
+              "distance": 1600
+            },
+            {
+              "to": "Universidad Rey Juan Carlos",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Universidad Rey Juan Carlos",
+          "connections": [
+            {
+              "to": "Parque Oeste",
+              "distance": 1200
+            },
+            {
+              "to": "Móstoles Central",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Móstoles Central",
+          "connections": [
+            {
+              "to": "Universidad Rey Juan Carlos",
+              "distance": 1600
+            },
+            {
+              "to": "Pradillo",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Pradillo",
+          "connections": [
+            {
+              "to": "Móstoles Central",
+              "distance": 1300
+            },
+            {
+              "to": "Hospital de Móstoles",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Hospital de Móstoles",
+          "connections": [
+            {
+              "to": "Pradillo",
+              "distance": 900
+            },
+            {
+              "to": "Manuela Malasaña",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Manuela Malasaña",
+          "connections": [
+            {
+              "to": "Hospital de Móstoles",
+              "distance": 1200
+            },
+            {
+              "to": "Loranca",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Loranca",
+          "connections": [
+            {
+              "to": "Manuela Malasaña",
+              "distance": 1500
+            },
+            {
+              "to": "Hospital de Fuenlabrada",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Hospital de Fuenlabrada",
+          "connections": [
+            {
+              "to": "Loranca",
+              "distance": 1100
+            },
+            {
+              "to": "Parque Europa",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Parque Europa",
+          "connections": [
+            {
+              "to": "Hospital de Fuenlabrada",
+              "distance": 1200
+            },
+            {
+              "to": "Fuenlabrada Central",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Fuenlabrada Central",
+          "connections": [
+            {
+              "to": "Parque Europa",
+              "distance": 1200
+            },
+            {
+              "to": "Parque de los Estados",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Parque de los Estados",
+          "connections": [
+            {
+              "to": "Fuenlabrada Central",
+              "distance": 1200
+            },
+            {
+              "to": "Arroyo Culebro",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Arroyo Culebro",
+          "connections": [
+            {
+              "to": "Parque de los Estados",
+              "distance": 1100
+            },
+            {
+              "to": "Conservatorio",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Conservatorio",
+          "connections": [
+            {
+              "to": "Arroyo Culebro",
+              "distance": 1200
+            },
+            {
+              "to": "Alonso Mendoza",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Alonso Mendoza",
+          "connections": [
+            {
+              "to": "Conservatorio",
+              "distance": 1200
+            },
+            {
+              "to": "Getafe Central",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Getafe Central",
+          "connections": [
+            {
+              "to": "Alonso Mendoza",
+              "distance": 1000
+            },
+            {
+              "to": "Juan de la Cierva",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Juan de la Cierva",
+          "connections": [
+            {
+              "to": "Getafe Central",
+              "distance": 1400
+            },
+            {
+              "to": "El Casar",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "El Casar",
+          "connections": [
+            {
+              "to": "Los Espartales",
+              "distance": 1600
+            },
+            {
+              "to": "Juan de la Cierva",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Los Espartales",
+          "connections": [
+            {
+              "to": "El Casar",
+              "distance": 1600
+            },
+            {
+              "to": "El Bercial",
+              "distance": 2500
+            }
+          ]
+        },
+        {
+          "name": "El Bercial",
+          "connections": [
+            {
+              "to": "Los Espartales",
+              "distance": 2500
+            },
+            {
+              "to": "El Carrascal",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "El Carrascal",
+          "connections": [
+            {
+              "to": "El Bercial",
+              "distance": 1400
+            },
+            {
+              "to": "Julián Besteiro",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Julián Besteiro",
+          "connections": [
+            {
+              "to": "El Carrascal",
+              "distance": 1400
+            },
+            {
+              "to": "Casa del Reloj",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Casa del Reloj",
+          "connections": [
+            {
+              "to": "Julián Besteiro",
+              "distance": 1400
+            },
+            {
+              "to": "Hospital Severo Ochoa",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Hospital Severo Ochoa",
+          "connections": [
+            {
+              "to": "Casa del Reloj",
+              "distance": 1000
+            },
+            {
+              "to": "Leganés Central",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Leganés Central",
+          "connections": [
+            {
+              "to": "San Nicasio",
+              "distance": 1400
+            },
+            {
+              "to": "Hospital Severo Ochoa",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "San Nicasio",
+          "connections": [
+            {
+              "to": "Leganés Central",
+              "distance": 1400
+            },
+            {
+              "to": "Puerta del Sur",
+              "distance": 1050
             }
           ]
         }
