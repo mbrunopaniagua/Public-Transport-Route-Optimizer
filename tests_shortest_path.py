@@ -75,6 +75,17 @@ class TestPublicTransportRouteOptimizer(unittest.TestCase):
         self.assertEqual(expected_path, list(path))
         self.assertEqual(expected_steps, steps)
 
+    def test_shortest_path_renfe_from_Chamartin_to_Piramides(self):
+        expected_path = ["Chamartín", "Nuevos Ministerios", "Recoletos", "Atocha", "Méndez Álvaro",
+                         "Delicias", "Pirámides"]
+        expected_distance = 6
+
+        public_transport_map = PublicTransportMap("renfe_stations.json")
+        path, distance = public_transport_map.shortest_path("Chamartín", "Pirámides")
+
+        self.assertEqual(expected_path, list(path))
+        self.assertEqual(expected_distance, distance)
+
 
 if __name__ == "__main__":
     unittest.main()
