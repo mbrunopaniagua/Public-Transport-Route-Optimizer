@@ -1,0 +1,3047 @@
+{
+  "lines": [
+    {
+      "name": "Línea 1",
+      "stations": [
+        {
+          "name": "Pinar de Chamartín",
+          "connections": [
+            {
+              "to": "Bambú",
+              "distance": 995
+            }
+          ]
+        },
+        {
+          "name": "Bambú",
+          "connections": [
+            {
+              "to": "Pinar de Chamartín",
+              "distance": 995
+            },
+            {
+              "to": "Chamartín",
+              "distance": 1130
+            }
+          ]
+        },
+        {
+          "name": "Chamartín",
+          "connections": [
+            {
+              "to": "Bambú",
+              "distance": 1130
+            },
+            {
+              "to": "Plaza de Castilla",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Plaza de Castilla",
+          "connections": [
+            {
+              "to": "Chamartín",
+              "distance": 750
+            },
+            {
+              "to": "Valdeacederas",
+              "distance": 1090
+            }
+          ]
+        },
+        {
+          "name": "Valdeacederas",
+          "connections": [
+            {
+              "to": "Plaza de Castilla",
+              "distance": 1090
+            },
+            {
+              "to": "Tetuán",
+              "distance": 630
+            }
+          ]
+        },
+        {
+          "name": "Tetuán",
+          "connections": [
+            {
+              "to": "Valdeacederas",
+              "distance": 630
+            },
+            {
+              "to": "Estrecho",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Estrecho",
+          "connections": [
+            {
+              "to": "Tetuán",
+              "distance": 700
+            },
+            {
+              "to": "Alvarado",
+              "distance": 630
+            }
+          ]
+        },
+        {
+          "name": "Alvarado",
+          "connections": [
+            {
+              "to": "Estrecho",
+              "distance": 630
+            },
+            {
+              "to": "Cuatro Caminos",
+              "distance": 690
+            }
+          ]
+        },
+        {
+          "name": "Cuatro Caminos",
+          "connections": [
+            {
+              "to": "Alvarado",
+              "distance": 690
+            },
+            {
+              "to": "Ríos Rosas",
+              "distance": 770
+            }
+          ]
+        },
+        {
+          "name": "Ríos Rosas",
+          "connections": [
+            {
+              "to": "Cuatro Caminos",
+              "distance": 770
+            },
+            {
+              "to": "Iglesia",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Iglesia",
+          "connections": [
+            {
+              "to": "Ríos Rosas",
+              "distance": 700
+            },
+            {
+              "to": "Bilbao",
+              "distance": 720
+            }
+          ]
+        },
+        {
+          "name": "Bilbao",
+          "connections": [
+            {
+              "to": "Iglesia",
+              "distance": 720
+            },
+            {
+              "to": "Tribunal",
+              "distance": 540
+            }
+          ]
+        },
+        {
+          "name": "Tribunal",
+          "connections": [
+            {
+              "to": "Bilbao",
+              "distance": 540
+            },
+            {
+              "to": "Gran Vía",
+              "distance": 570
+            }
+          ]
+        },
+        {
+          "name": "Gran Vía",
+          "connections": [
+            {
+              "to": "Tribunal",
+              "distance": 570
+            },
+            {
+              "to": "Sol",
+              "distance": 430
+            }
+          ]
+        },
+        {
+          "name": "Sol",
+          "connections": [
+            {
+              "to": "Gran Vía",
+              "distance": 430
+            },
+            {
+              "to": "Tirso de Molina",
+              "distance": 500
+            }
+          ]
+        },
+        {
+          "name": "Tirso de Molina",
+          "connections": [
+            {
+              "to": "Sol",
+              "distance": 500
+            },
+            {
+              "to": "Antón Martín",
+              "distance": 480
+            }
+          ]
+        },
+        {
+          "name": "Antón Martín",
+          "connections": [
+            {
+              "to": "Estación del Arte",
+              "distance": 480
+            },
+            {
+              "to": "Tirso de Molina",
+              "distance": 480
+            }
+          ]
+        },
+        {
+          "name": "Estación del Arte",
+          "connections": [
+            {
+              "to": "Antón Martín",
+              "distance": 480
+            },
+            {
+              "to": "Atocha",
+              "distance": 600
+            }
+          ]
+        },
+        {
+          "name": "Atocha",
+          "connections": [
+            {
+              "to": "Estación del Arte",
+              "distance": 600
+            },
+            {
+              "to": "Menéndez Pelayo",
+              "distance": 780
+            }
+          ]
+        },
+        {
+          "name": "Menéndez Pelayo",
+          "connections": [
+            {
+              "to": "Atocha",
+              "distance": 780
+            },
+            {
+              "to": "Pacífico",
+              "distance": 760
+            }
+          ]
+        },
+        {
+          "name": "Pacífico",
+          "connections": [
+            {
+              "to": "Menéndez Pelayo",
+              "distance": 760
+            },
+            {
+              "to": "Puente de Vallecas",
+              "distance": 840
+            }
+          ]
+        },
+        {
+          "name": "Puente de Vallecas",
+          "connections": [
+            {
+              "to": "Pacífico",
+              "distance": 840
+            },
+            {
+              "to": "Nueva Numancia",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Nueva Numancia",
+          "connections": [
+            {
+              "to": "Puente de Vallecas",
+              "distance": 900
+            },
+            {
+              "to": "Portazgo",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Portazgo",
+          "connections": [
+            {
+              "to": "Nueva Numancia",
+              "distance": 900
+            },
+            {
+              "to": "Buenos Aires",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Buenos Aires",
+          "connections": [
+            {
+              "to": "Portazgo",
+              "distance": 750
+            },
+            {
+              "to": "Alto Arenal",
+              "distance": 770
+            }
+          ]
+        },
+        {
+          "name": "Alto Arenal",
+          "connections": [
+            {
+              "to": "Buenos Aires",
+              "distance": 770
+            },
+            {
+              "to": "Miguel Hernández",
+              "distance": 930
+            }
+          ]
+        },
+        {
+          "name": "Miguel Hernández",
+          "connections": [
+            {
+              "to": "Alto Arenal",
+              "distance": 930
+            },
+            {
+              "to": "Sierra de Guadalupe",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Sierra de Guadalupe",
+          "connections": [
+            {
+              "to": "Miguel Hernández",
+              "distance": 1300
+            },
+            {
+              "to": "Villa de Vallecas",
+              "distance": 1150
+            }
+          ]
+        },
+        {
+          "name": "Villa de Vallecas",
+          "connections": [
+            {
+              "to": "Sierra de Guadalupe",
+              "distance": 1150
+            },
+            {
+              "to": "Congosto",
+              "distance": 960
+            }
+          ]
+        },
+        {
+          "name": "Congosto",
+          "connections": [
+            {
+              "to": "Villa de Vallecas",
+              "distance": 960
+            },
+            {
+              "to": "La Gavia",
+              "distance": 1330
+            }
+          ]
+        },
+        {
+          "name": "La Gavia",
+          "connections": [
+            {
+              "to": "Congosto",
+              "distance": 1330
+            },
+            {
+              "to": "Las Suertes",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Las Suertes",
+          "connections": [
+            {
+              "to": "La Gavia",
+              "distance": 950
+            },
+            {
+              "to": "Valdecarros",
+              "distance": 1350
+            }
+          ]
+        },
+        {
+          "name": "Valdecarros",
+          "connections": [
+            {
+              "to": "Las Suertes",
+              "distance": 1350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 2",
+      "stations": [
+        {
+          "name": "Las Rosas",
+          "connections": [
+            {
+              "to": "Avenida de Guadalajara",
+              "distance": 888
+            }
+          ]
+        },
+        {
+          "name": "Avenida de Guadalajara",
+          "connections": [
+            {
+              "to": "Las Rosas",
+              "distance": 888
+            },
+            {
+              "to": "Alsacia",
+              "distance": 754
+            }
+          ]
+        },
+        {
+          "name": "Alsacia",
+          "connections": [
+            {
+              "to": "Avenida de Guadalajara",
+              "distance": 754
+            },
+            {
+              "to": "La Almudena",
+              "distance": 785
+            }
+          ]
+        },
+        {
+          "name": "La Almudena",
+          "connections": [
+            {
+              "to": "Alsacia",
+              "distance": 785
+            },
+            {
+              "to": "La Elipa",
+              "distance": 1324
+            }
+          ]
+        },
+        {
+          "name": "La Elipa",
+          "connections": [
+            {
+              "to": "La Almudena",
+              "distance": 1324
+            },
+            {
+              "to": "Ventas",
+              "distance": 1075
+            }
+          ]
+        },
+        {
+          "name": "Ventas",
+          "connections": [
+            {
+              "to": "La Elipa",
+              "distance": 1075
+            },
+            {
+              "to": "Manuel Becerra",
+              "distance": 712
+            }
+          ]
+        },
+        {
+          "name": "Manuel Becerra",
+          "connections": [
+            {
+              "to": "Ventas",
+              "distance": 712
+            },
+            {
+              "to": "Goya",
+              "distance": 635
+            }
+          ]
+        },
+        {
+          "name": "Goya",
+          "connections": [
+            {
+              "to": "Manuel Becerra",
+              "distance": 635
+            },
+            {
+              "to": "Príncipe de Vergara",
+              "distance": 345
+            }
+          ]
+        },
+        {
+          "name": "Príncipe de Vergara",
+          "connections": [
+            {
+              "to": "Goya",
+              "distance": 345
+            },
+            {
+              "to": "Retiro",
+              "distance": 573
+            }
+          ]
+        },
+        {
+          "name": "Retiro",
+          "connections": [
+            {
+              "to": "Príncipe de Vergara",
+              "distance": 573
+            },
+            {
+              "to": "Banco de España",
+              "distance": 499
+            }
+          ]
+        },
+        {
+          "name": "Banco de España",
+          "connections": [
+            {
+              "to": "Retiro",
+              "distance": 499
+            },
+            {
+              "to": "Sevilla",
+              "distance": 490
+            }
+          ]
+        },
+        {
+          "name": "Sevilla",
+          "connections": [
+            {
+              "to": "Banco de España",
+              "distance": 490
+            },
+            {
+              "to": "Sol",
+              "distance": 378
+            }
+          ]
+        },
+        {
+          "name": "Sol",
+          "connections": [
+            {
+              "to": "Sevilla",
+              "distance": 378
+            },
+            {
+              "to": "Ópera",
+              "distance": 696
+            }
+          ]
+        },
+        {
+          "name": "Ópera",
+          "connections": [
+            {
+              "to": "Sol",
+              "distance": 696
+            },
+            {
+              "to": "Santo Domingo",
+              "distance": 648
+            }
+          ]
+        },
+        {
+          "name": "Santo Domingo",
+          "connections": [
+            {
+              "to": "Ópera",
+              "distance": 648
+            },
+            {
+              "to": "Noviciado",
+              "distance": 558
+            }
+          ]
+        },
+        {
+          "name": "Noviciado",
+          "connections": [
+            {
+              "to": "Santo Domingo",
+              "distance": 558
+            },
+            {
+              "to": "San Bernardo",
+              "distance": 738
+            }
+          ]
+        },
+        {
+          "name": "San Bernardo",
+          "connections": [
+            {
+              "to": "Noviciado",
+              "distance": 738
+            },
+            {
+              "to": "Quevedo",
+              "distance": 601
+            }
+          ]
+        },
+        {
+          "name": "Quevedo",
+          "connections": [
+            {
+              "to": "San Bernardo",
+              "distance": 601
+            },
+            {
+              "to": "Canal",
+              "distance": 665
+            }
+          ]
+        },
+        {
+          "name": "Canal",
+          "connections": [
+            {
+              "to": "Quevedo",
+              "distance": 665
+            },
+            {
+              "to": "Cuatro Caminos",
+              "distance": 731
+            }
+          ]
+        },
+        {
+          "name": "Cuatro Caminos",
+          "connections": [
+            {
+              "to": "Canal",
+              "distance": 731
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 3",
+      "stations": [
+        {
+          "name": "Villaverde Alto",
+          "connections": [
+            {
+              "to": "San Cristóbal",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "San Cristóbal",
+          "connections": [
+            {
+              "to": "Villaverde Alto",
+              "distance": 900
+            },
+            {
+              "to": "Villaverde Bajo-Cruce",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "Villaverde Bajo-Cruce",
+          "connections": [
+            {
+              "to": "San Cristóbal",
+              "distance": 850
+            },
+            {
+              "to": "Ciudad de los Ángeles",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Ciudad de los Ángeles",
+          "connections": [
+            {
+              "to": "Villaverde Bajo-Cruce",
+              "distance": 1300
+            },
+            {
+              "to": "San Fermín-Orcasur",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "San Fermín-Orcasur",
+          "connections": [
+            {
+              "to": "Ciudad de los Ángeles",
+              "distance": 1400
+            },
+            {
+              "to": "Hospital 12 de Octubre",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Hospital 12 de Octubre",
+          "connections": [
+            {
+              "to": "San Fermín-Orcasur",
+              "distance": 950
+            },
+            {
+              "to": "Almendrales",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Almendrales",
+          "connections": [
+            {
+              "to": "Hospital 12 de Octubre",
+              "distance": 950
+            },
+            {
+              "to": "Legazpi",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Legazpi",
+          "connections": [
+            {
+              "to": "Almendrales",
+              "distance": 950
+            },
+            {
+              "to": "Delicias",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Delicias",
+          "connections": [
+            {
+              "to": "Legazpi",
+              "distance": 900
+            },
+            {
+              "to": "Palos de la Frontera",
+              "distance": 600
+            }
+          ]
+        },
+        {
+          "name": "Palos de la Frontera",
+          "connections": [
+            {
+              "to": "Delicias",
+              "distance": 600
+            },
+            {
+              "to": "Embajadores",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Embajadores",
+          "connections": [
+            {
+              "to": "Palos de la Frontera",
+              "distance": 700
+            },
+            {
+              "to": "Lavapiés",
+              "distance": 600
+            }
+          ]
+        },
+        {
+          "name": "Lavapiés",
+          "connections": [
+            {
+              "to": "Embajadores",
+              "distance": 600
+            },
+            {
+              "to": "Sol",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "Sol",
+          "connections": [
+            {
+              "to": "Lavapiés",
+              "distance": 850
+            },
+            {
+              "to": "Callao",
+              "distance": 560
+            }
+          ]
+        },
+        {
+          "name": "Callao",
+          "connections": [
+            {
+              "to": "Sol",
+              "distance": 560
+            },
+            {
+              "to": "Plaza de España",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Plaza de España",
+          "connections": [
+            {
+              "to": "Callao",
+              "distance": 700
+            },
+            {
+              "to": "Ventura Rodríguez",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Ventura Rodríguez",
+          "connections": [
+            {
+              "to": "Plaza de España",
+              "distance": 750
+            },
+            {
+              "to": "Argüelles",
+              "distance": 630
+            }
+          ]
+        },
+        {
+          "name": "Argüelles",
+          "connections": [
+            {
+              "to": "Ventura Rodríguez",
+              "distance": 630
+            },
+            {
+              "to": "Moncloa",
+              "distance": 1050
+            }
+          ]
+        },
+        {
+          "name": "Moncloa",
+          "connections": [
+            {
+              "to": "Argüelles",
+              "distance": 1050
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 4",
+      "stations": [
+        {
+          "name": "Argüelles",
+          "connections": [
+            {
+              "to": "San Bernardo",
+              "distance": 907
+            }
+          ]
+        },
+        {
+          "name": "San Bernardo",
+          "connections": [
+            {
+              "to": "Argüelles",
+              "distance": 907
+            },
+            {
+              "to": "Bilbao",
+              "distance": 743
+            }
+          ]
+        },
+        {
+          "name": "Bilbao",
+          "connections": [
+            {
+              "to": "San Bernardo",
+              "distance": 743
+            },
+            {
+              "to": "Alonso Martínez",
+              "distance": 678
+            }
+          ]
+        },
+        {
+          "name": "Alonso Martínez",
+          "connections": [
+            {
+              "to": "Bilbao",
+              "distance": 678
+            },
+            {
+              "to": "Colón",
+              "distance": 545
+            }
+          ]
+        },
+        {
+          "name": "Colón",
+          "connections": [
+            {
+              "to": "Alonso Martínez",
+              "distance": 545
+            },
+            {
+              "to": "Serrano",
+              "distance": 605
+            }
+          ]
+        },
+        {
+          "name": "Serrano",
+          "connections": [
+            {
+              "to": "Colón",
+              "distance": 605
+            },
+            {
+              "to": "Velázquez",
+              "distance": 497
+            }
+          ]
+        },
+        {
+          "name": "Velázquez",
+          "connections": [
+            {
+              "to": "Serrano",
+              "distance": 497
+            },
+            {
+              "to": "Goya",
+              "distance": 450
+            }
+          ]
+        },
+        {
+          "name": "Goya",
+          "connections": [
+            {
+              "to": "Velázquez",
+              "distance": 450
+            },
+            {
+              "to": "Lista",
+              "distance": 581
+            }
+          ]
+        },
+        {
+          "name": "Lista",
+          "connections": [
+            {
+              "to": "Goya",
+              "distance": 581
+            },
+            {
+              "to": "Diego de León",
+              "distance": 408
+            }
+          ]
+        },
+        {
+          "name": "Diego de León",
+          "connections": [
+            {
+              "to": "Lista",
+              "distance": 408
+            },
+            {
+              "to": "Avenida de América",
+              "distance": 722
+            }
+          ]
+        },
+        {
+          "name": "Avenida de América",
+          "connections": [
+            {
+              "to": "Diego de León",
+              "distance": 722
+            },
+            {
+              "to": "Prosperidad",
+              "distance": 860
+            }
+          ]
+        },
+        {
+          "name": "Prosperidad",
+          "connections": [
+            {
+              "to": "Avenida de América",
+              "distance": 860
+            },
+            {
+              "to": "Alfonso XIII",
+              "distance": 904
+            }
+          ]
+        },
+        {
+          "name": "Alfonso XIII",
+          "connections": [
+            {
+              "to": "Prosperidad",
+              "distance": 904
+            },
+            {
+              "to": "Esperanza",
+              "distance": 1153
+            }
+          ]
+        },
+        {
+          "name": "Esperanza",
+          "connections": [
+            {
+              "to": "Alfonso XIII",
+              "distance": 1153
+            },
+            {
+              "to": "Mar de Cristal",
+              "distance": 1338
+            }
+          ]
+        },
+        {
+          "name": "Mar de Cristal",
+          "connections": [
+            {
+              "to": "Esperanza",
+              "distance": 1338
+            },
+            {
+              "to": "Parque de Santa María",
+              "distance": 1136
+            }
+          ]
+        },
+        {
+          "name": "Parque de Santa María",
+          "connections": [
+            {
+              "to": "Mar de Cristal",
+              "distance": 1136
+            },
+            {
+              "to": "Hortaleza",
+              "distance": 931
+            }
+          ]
+        },
+        {
+          "name": "Hortaleza",
+          "connections": [
+            {
+              "to": "Parque de Santa María",
+              "distance": 931
+            },
+            {
+              "to": "Manoteras",
+              "distance": 1235
+            }
+          ]
+        },
+        {
+          "name": "Manoteras",
+          "connections": [
+            {
+              "to": "Hortaleza",
+              "distance": 1235
+            },
+            {
+              "to": "Pinar de Chamartín",
+              "distance": 1011
+            }
+          ]
+        },
+        {
+          "name": "Pinar de Chamartín",
+          "connections": [
+            {
+              "to": "Manoteras",
+              "distance": 1011
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 5",
+      "stations": [
+        {
+          "name": "Alameda de Osuna",
+          "connections": [
+            {
+              "to": "El Capricho",
+              "distance": 1150
+            }
+          ]
+        },
+        {
+          "name": "El Capricho",
+          "connections": [
+            {
+              "to": "Alameda de Osuna",
+              "distance": 1150
+            },
+            {
+              "to": "Canillejas",
+              "distance": 1480
+            }
+          ]
+        },
+        {
+          "name": "Canillejas",
+          "connections": [
+            {
+              "to": "El Capricho",
+              "distance": 1480
+            },
+            {
+              "to": "Torre Arias",
+              "distance": 1160
+            }
+          ]
+        },
+        {
+          "name": "Torre Arias",
+          "connections": [
+            {
+              "to": "Canillejas",
+              "distance": 1160
+            },
+            {
+              "to": "Suanzes",
+              "distance": 1040
+            }
+          ]
+        },
+        {
+          "name": "Suanzes",
+          "connections": [
+            {
+              "to": "Torre Arias",
+              "distance": 1040
+            },
+            {
+              "to": "Ciudad Lineal",
+              "distance": 1320
+            }
+          ]
+        },
+        {
+          "name": "Ciudad Lineal",
+          "connections": [
+            {
+              "to": "Suanzes",
+              "distance": 1320
+            },
+            {
+              "to": "Pueblo Nuevo",
+              "distance": 1550
+            }
+          ]
+        },
+        {
+          "name": "Pueblo Nuevo",
+          "connections": [
+            {
+              "to": "Ciudad Lineal",
+              "distance": 1550
+            },
+            {
+              "to": "Quintana",
+              "distance": 680
+            }
+          ]
+        },
+        {
+          "name": "Quintana",
+          "connections": [
+            {
+              "to": "Pueblo Nuevo",
+              "distance": 680
+            },
+            {
+              "to": "El Carmen",
+              "distance": 570
+            }
+          ]
+        },
+        {
+          "name": "El Carmen",
+          "connections": [
+            {
+              "to": "Quintana",
+              "distance": 570
+            },
+            {
+              "to": "Ventas",
+              "distance": 540
+            }
+          ]
+        },
+        {
+          "name": "Ventas",
+          "connections": [
+            {
+              "to": "El Carmen",
+              "distance": 540
+            },
+            {
+              "to": "Diego de León",
+              "distance": 1340
+            }
+          ]
+        },
+        {
+          "name": "Diego de León",
+          "connections": [
+            {
+              "to": "Ventas",
+              "distance": 1340
+            },
+            {
+              "to": "Núñez de Balboa",
+              "distance": 690
+            }
+          ]
+        },
+        {
+          "name": "Núñez de Balboa",
+          "connections": [
+            {
+              "to": "Diego de León",
+              "distance": 690
+            },
+            {
+              "to": "Rubén Darío",
+              "distance": 1020
+            }
+          ]
+        },
+        {
+          "name": "Rubén Darío",
+          "connections": [
+            {
+              "to": "Núñez de Balboa",
+              "distance": 1020
+            },
+            {
+              "to": "Alonso Martínez",
+              "distance": 780
+            }
+          ]
+        },
+        {
+          "name": "Alonso Martínez",
+          "connections": [
+            {
+              "to": "Rubén Darío",
+              "distance": 780
+            },
+            {
+              "to": "Chueca",
+              "distance": 770
+            }
+          ]
+        },
+        {
+          "name": "Chueca",
+          "connections": [
+            {
+              "to": "Alonso Martínez",
+              "distance": 770
+            },
+            {
+              "to": "Gran Vía",
+              "distance": 530
+            }
+          ]
+        },
+        {
+          "name": "Gran Vía",
+          "connections": [
+            {
+              "to": "Chueca",
+              "distance": 530
+            },
+            {
+              "to": "Callao",
+              "distance": 270
+            }
+          ]
+        },
+        {
+          "name": "Callao",
+          "connections": [
+            {
+              "to": "Gran Vía",
+              "distance": 270
+            },
+            {
+              "to": "Ópera",
+              "distance": 480
+            }
+          ]
+        },
+        {
+          "name": "Ópera",
+          "connections": [
+            {
+              "to": "Callao",
+              "distance": 480
+            },
+            {
+              "to": "La Latina",
+              "distance": 820
+            }
+          ]
+        },
+        {
+          "name": "La Latina",
+          "connections": [
+            {
+              "to": "Ópera",
+              "distance": 820
+            },
+            {
+              "to": "Puerta de Toledo",
+              "distance": 660
+            }
+          ]
+        },
+        {
+          "name": "Puerta de Toledo",
+          "connections": [
+            {
+              "to": "La Latina",
+              "distance": 660
+            },
+            {
+              "to": "Acacias",
+              "distance": 520
+            }
+          ]
+        },
+        {
+          "name": "Acacias",
+          "connections": [
+            {
+              "to": "Puerta de Toledo",
+              "distance": 520
+            },
+            {
+              "to": "Embajadores",
+              "distance": 400
+            }
+          ]
+        },
+        {
+          "name": "Embajadores",
+          "connections": [
+            {
+              "to": "Acacias",
+              "distance": 400
+            },
+            {
+              "to": "Legazpi",
+              "distance": 1520
+            }
+          ]
+        },
+        {
+          "name": "Legazpi",
+          "connections": [
+            {
+              "to": "Embajadores",
+              "distance": 1520
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 6",
+      "stations": [
+        {
+          "name": "Laguna",
+          "connections": [
+            {
+              "to": "Lucero",
+              "distance": 715
+            }
+          ]
+        },
+        {
+          "name": "Lucero",
+          "connections": [
+            {
+              "to": "Laguna",
+              "distance": 715
+            },
+            {
+              "to": "Alto de Extremadura",
+              "distance": 875
+            }
+          ]
+        },
+        {
+          "name": "Alto de Extremadura",
+          "connections": [
+            {
+              "to": "Lucero",
+              "distance": 875
+            },
+            {
+              "to": "Puerta del Ángel",
+              "distance": 960
+            }
+          ]
+        },
+        {
+          "name": "Puerta del Ángel",
+          "connections": [
+            {
+              "to": "Alto de Extremadura",
+              "distance": 960
+            },
+            {
+              "to": "Príncipe Pío",
+              "distance": 1280
+            }
+          ]
+        },
+        {
+          "name": "Príncipe Pío",
+          "connections": [
+            {
+              "to": "Puerta del Ángel",
+              "distance": 1280
+            },
+            {
+              "to": "Argüelles",
+              "distance": 870
+            }
+          ]
+        },
+        {
+          "name": "Argüelles",
+          "connections": [
+            {
+              "to": "Príncipe Pío",
+              "distance": 870
+            },
+            {
+              "to": "Moncloa",
+              "distance": 680
+            }
+          ]
+        },
+        {
+          "name": "Moncloa",
+          "connections": [
+            {
+              "to": "Argüelles",
+              "distance": 680
+            },
+            {
+              "to": "Ciudad Universitaria",
+              "distance": 1130
+            }
+          ]
+        },
+        {
+          "name": "Ciudad Universitaria",
+          "connections": [
+            {
+              "to": "Moncloa",
+              "distance": 1130
+            },
+            {
+              "to": "Vicente Aleixandre",
+              "distance": 760
+            }
+          ]
+        },
+        {
+          "name": "Vicente Aleixandre",
+          "connections": [
+            {
+              "to": "Ciudad Universitaria",
+              "distance": 760
+            },
+            {
+              "to": "Guzmán el Bueno",
+              "distance": 1020
+            }
+          ]
+        },
+        {
+          "name": "Guzmán el Bueno",
+          "connections": [
+            {
+              "to": "Vicente Aleixandre",
+              "distance": 1020
+            },
+            {
+              "to": "Cuatro Caminos",
+              "distance": 820
+            }
+          ]
+        },
+        {
+          "name": "Cuatro Caminos",
+          "connections": [
+            {
+              "to": "Guzmán el Bueno",
+              "distance": 820
+            },
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 1130
+            }
+          ]
+        },
+        {
+          "name": "Nuevos Ministerios",
+          "connections": [
+            {
+              "to": "Cuatro Caminos",
+              "distance": 1130
+            },
+            {
+              "to": "República Argentina",
+              "distance": 920
+            }
+          ]
+        },
+        {
+          "name": "República Argentina",
+          "connections": [
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 920
+            },
+            {
+              "to": "Avenida de América",
+              "distance": 890
+            }
+          ]
+        },
+        {
+          "name": "Avenida de América",
+          "connections": [
+            {
+              "to": "República Argentina",
+              "distance": 890
+            },
+            {
+              "to": "Diego de León",
+              "distance": 590
+            }
+          ]
+        },
+        {
+          "name": "Diego de León",
+          "connections": [
+            {
+              "to": "Avenida de América",
+              "distance": 590
+            },
+            {
+              "to": "Manuel Becerra",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Manuel Becerra",
+          "connections": [
+            {
+              "to": "Diego de León",
+              "distance": 750
+            },
+            {
+              "to": "O'Donnell",
+              "distance": 890
+            }
+          ]
+        },
+        {
+          "name": "O'Donnell",
+          "connections": [
+            {
+              "to": "Manuel Becerra",
+              "distance": 890
+            },
+            {
+              "to": "Sainz de Baranda",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Sainz de Baranda",
+          "connections": [
+            {
+              "to": "O'Donnell",
+              "distance": 700
+            },
+            {
+              "to": "Conde de Casal",
+              "distance": 890
+            }
+          ]
+        },
+        {
+          "name": "Conde de Casal",
+          "connections": [
+            {
+              "to": "Sainz de Baranda",
+              "distance": 890
+            },
+            {
+              "to": "Pacífico",
+              "distance": 1220
+            }
+          ]
+        },
+        {
+          "name": "Pacífico",
+          "connections": [
+            {
+              "to": "Conde de Casal",
+              "distance": 1220
+            },
+            {
+              "to": "Méndez Álvaro",
+              "distance": 710
+            }
+          ]
+        },
+        {
+          "name": "Méndez Álvaro",
+          "connections": [
+            {
+              "to": "Pacífico",
+              "distance": 710
+            },
+            {
+              "to": "Arganzuela-Planetario",
+              "distance": 1020
+            }
+          ]
+        },
+        {
+          "name": "Arganzuela-Planetario",
+          "connections": [
+            {
+              "to": "Méndez Álvaro",
+              "distance": 1020
+            },
+            {
+              "to": "Legazpi",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "Legazpi",
+          "connections": [
+            {
+              "to": "Arganzuela-Planetario",
+              "distance": 850
+            },
+            {
+              "to": "Usera",
+              "distance": 910
+            }
+          ]
+        },
+        {
+          "name": "Usera",
+          "connections": [
+            {
+              "to": "Legazpi",
+              "distance": 910
+            },
+            {
+              "to": "Plaza Elíptica",
+              "distance": 1040
+            }
+          ]
+        },
+        {
+          "name": "Plaza Elíptica",
+          "connections": [
+            {
+              "to": "Usera",
+              "distance": 1040
+            },
+            {
+              "to": "Opañel",
+              "distance": 960
+            }
+          ]
+        },
+        {
+          "name": "Opañel",
+          "connections": [
+            {
+              "to": "Plaza Elíptica",
+              "distance": 960
+            },
+            {
+              "to": "Oporto",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Oporto",
+          "connections": [
+            {
+              "to": "Opañel",
+              "distance": 750
+            },
+            {
+              "to": "Carpetana",
+              "distance": 1160
+            }
+          ]
+        },
+        {
+          "name": "Carpetana",
+          "connections": [
+            {
+              "to": "Oporto",
+              "distance": 1160
+            },
+            {
+              "to": "Laguna",
+              "distance": 890
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 7",
+      "stations": [
+        {
+          "name": "Pitis",
+          "connections": [
+            {
+              "to": "Lacoma",
+              "distance": 800
+            }
+          ]
+        },
+        {
+          "name": "Lacoma",
+          "connections": [
+            {
+              "to": "Pitis",
+              "distance": 800
+            },
+            {
+              "to": "Arroyofresno",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Arroyofresno",
+          "connections": [
+            {
+              "to": "Lacoma",
+              "distance": 1100
+            },
+            {
+              "to": "Avenida de la Ilustración",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Avenida de la Ilustración",
+          "connections": [
+            {
+              "to": "Arroyofresno",
+              "distance": 950
+            },
+            {
+              "to": "Peñagrande",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Peñagrande",
+          "connections": [
+            {
+              "to": "Avenida de la Ilustración",
+              "distance": 1100
+            },
+            {
+              "to": "Antonio Machado",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Antonio Machado",
+          "connections": [
+            {
+              "to": "Peñagrande",
+              "distance": 950
+            },
+            {
+              "to": "Valdezarza",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "Valdezarza",
+          "connections": [
+            {
+              "to": "Antonio Machado",
+              "distance": 850
+            },
+            {
+              "to": "Francos Rodríguez",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Francos Rodríguez",
+          "connections": [
+            {
+              "to": "Valdezarza",
+              "distance": 1100
+            },
+            {
+              "to": "Guzmán el Bueno",
+              "distance": 800
+            }
+          ]
+        },
+        {
+          "name": "Guzmán el Bueno",
+          "connections": [
+            {
+              "to": "Francos Rodríguez",
+              "distance": 800
+            },
+            {
+              "to": "Islas Filipinas",
+              "distance": 600
+            }
+          ]
+        },
+        {
+          "name": "Islas Filipinas",
+          "connections": [
+            {
+              "to": "Guzmán el Bueno",
+              "distance": 600
+            },
+            {
+              "to": "Canal",
+              "distance": 750
+            }
+          ]
+        },
+        {
+          "name": "Canal",
+          "connections": [
+            {
+              "to": "Islas Filipinas",
+              "distance": 750
+            },
+            {
+              "to": "Alonso Cano",
+              "distance": 600
+            }
+          ]
+        },
+        {
+          "name": "Alonso Cano",
+          "connections": [
+            {
+              "to": "Canal",
+              "distance": 600
+            },
+            {
+              "to": "Gregorio Marañón",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Gregorio Marañón",
+          "connections": [
+            {
+              "to": "Alonso Cano",
+              "distance": 950
+            },
+            {
+              "to": "Avenida de América",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Avenida de América",
+          "connections": [
+            {
+              "to": "Gregorio Marañón",
+              "distance": 1100
+            },
+            {
+              "to": "Cartagena",
+              "distance": 800
+            }
+          ]
+        },
+        {
+          "name": "Cartagena",
+          "connections": [
+            {
+              "to": "Avenida de América",
+              "distance": 800
+            },
+            {
+              "to": "Parque de las Avenidas",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Parque de las Avenidas",
+          "connections": [
+            {
+              "to": "Cartagena",
+              "distance": 700
+            },
+            {
+              "to": "Barrio de la Concepción",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Barrio de la Concepción",
+          "connections": [
+            {
+              "to": "Parque de las Avenidas",
+              "distance": 1200
+            },
+            {
+              "to": "Pueblo Nuevo",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Pueblo Nuevo",
+          "connections": [
+            {
+              "to": "Barrio de la Concepción",
+              "distance": 1400
+            },
+            {
+              "to": "Ascao",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Ascao",
+          "connections": [
+            {
+              "to": "Pueblo Nuevo",
+              "distance": 900
+            },
+            {
+              "to": "García Noblejas",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "García Noblejas",
+          "connections": [
+            {
+              "to": "Ascao",
+              "distance": 850
+            },
+            {
+              "to": "Simancas",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Simancas",
+          "connections": [
+            {
+              "to": "García Noblejas",
+              "distance": 900
+            },
+            {
+              "to": "San Blas",
+              "distance": 850
+            }
+          ]
+        },
+        {
+          "name": "San Blas",
+          "connections": [
+            {
+              "to": "Simancas",
+              "distance": 850
+            },
+            {
+              "to": "Las Musas",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Las Musas",
+          "connections": [
+            {
+              "to": "San Blas",
+              "distance": 1100
+            },
+            {
+              "to": "Estadio Metropolitano",
+              "distance": 950
+            }
+          ]
+        },
+        {
+          "name": "Estadio Metropolitano",
+          "connections": [
+            {
+              "to": "Las Musas",
+              "distance": 950
+            },
+            {
+              "to": "San Fernando",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "San Fernando",
+          "connections": [
+            {
+              "to": "Estadio Metropolitano",
+              "distance": 1200
+            },
+            {
+              "to": "Jarama",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Jarama",
+          "connections": [
+            {
+              "to": "San Fernando",
+              "distance": 1500
+            },
+            {
+              "to": "Henares",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Henares",
+          "connections": [
+            {
+              "to": "Jarama",
+              "distance": 1300
+            },
+            {
+              "to": "Hospital del Henares",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Hospital del Henares",
+          "connections": [
+            {
+              "to": "Henares",
+              "distance": 1400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 8",
+      "stations": [
+        {
+          "name": "Nuevos Ministerios",
+          "connections": [
+            {
+              "to": "Colombia",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Colombia",
+          "connections": [
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 1500
+            },
+            {
+              "to": "Pinar del Rey",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Pinar del Rey",
+          "connections": [
+            {
+              "to": "Colombia",
+              "distance": 1500
+            },
+            {
+              "to": "Mar de Cristal",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Mar de Cristal",
+          "connections": [
+            {
+              "to": "Pinar del Rey",
+              "distance": 1000
+            },
+            {
+              "to": "Campo de las Naciones",
+              "distance": 2000
+            }
+          ]
+        },
+        {
+          "name": "Campo de las Naciones",
+          "connections": [
+            {
+              "to": "Mar de Cristal",
+              "distance": 2000
+            },
+            {
+              "to": "Aeropuerto T1-T2-T3",
+              "distance": 3000
+            }
+          ]
+        },
+        {
+          "name": "Aeropuerto T1-T2-T3",
+          "connections": [
+            {
+              "to": "Campo de las Naciones",
+              "distance": 3000
+            },
+            {
+              "to": "Aeropuerto T4",
+              "distance": 3500
+            }
+          ]
+        },
+        {
+          "name": "Aeropuerto T4",
+          "connections": [
+            {
+              "to": "Aeropuerto T1-T2-T3",
+              "distance": 3500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 9",
+      "stations": [
+        {
+          "name": "Paco de Lucía",
+          "connections": [
+            {
+              "to": "Mirasierra",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Mirasierra",
+          "connections": [
+            {
+              "to": "Paco de Lucía",
+              "distance": 1200
+            },
+            {
+              "to": "Herrera Oria",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Herrera Oria",
+          "connections": [
+            {
+              "to": "Mirasierra",
+              "distance": 1500
+            },
+            {
+              "to": "Barrio del Pilar",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Barrio del Pilar",
+          "connections": [
+            {
+              "to": "Herrera Oria",
+              "distance": 1300
+            },
+            {
+              "to": "Ventilla",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Ventilla",
+          "connections": [
+            {
+              "to": "Barrio del Pilar",
+              "distance": 1100
+            },
+            {
+              "to": "Plaza de Castilla",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Plaza de Castilla",
+          "connections": [
+            {
+              "to": "Ventilla",
+              "distance": 1400
+            },
+            {
+              "to": "Duque de Pastrana",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Duque de Pastrana",
+          "connections": [
+            {
+              "to": "Plaza de Castilla",
+              "distance": 1000
+            },
+            {
+              "to": "Pío XII",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Pío XII",
+          "connections": [
+            {
+              "to": "Duque de Pastrana",
+              "distance": 1200
+            },
+            {
+              "to": "Colombia",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Colombia",
+          "connections": [
+            {
+              "to": "Pío XII",
+              "distance": 1400
+            },
+            {
+              "to": "Concha Espina",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Concha Espina",
+          "connections": [
+            {
+              "to": "Colombia",
+              "distance": 900
+            },
+            {
+              "to": "Cruz del Rayo",
+              "distance": 800
+            }
+          ]
+        },
+        {
+          "name": "Cruz del Rayo",
+          "connections": [
+            {
+              "to": "Concha Espina",
+              "distance": 800
+            },
+            {
+              "to": "Prosperidad",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Prosperidad",
+          "connections": [
+            {
+              "to": "Cruz del Rayo",
+              "distance": 700
+            },
+            {
+              "to": "Avenida de América",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Avenida de América",
+          "connections": [
+            {
+              "to": "Prosperidad",
+              "distance": 900
+            },
+            {
+              "to": "Núñez de Balboa",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Núñez de Balboa",
+          "connections": [
+            {
+              "to": "Avenida de América",
+              "distance": 1100
+            },
+            {
+              "to": "Príncipe de Vergara",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Príncipe de Vergara",
+          "connections": [
+            {
+              "to": "Núñez de Balboa",
+              "distance": 1000
+            },
+            {
+              "to": "Ibiza",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Ibiza",
+          "connections": [
+            {
+              "to": "Príncipe de Vergara",
+              "distance": 1200
+            },
+            {
+              "to": "Sainz de Baranda",
+              "distance": 700
+            }
+          ]
+        },
+        {
+          "name": "Sainz de Baranda",
+          "connections": [
+            {
+              "to": "Ibiza",
+              "distance": 700
+            },
+            {
+              "to": "Estrella",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Estrella",
+          "connections": [
+            {
+              "to": "Sainz de Baranda",
+              "distance": 1000
+            },
+            {
+              "to": "Vinateros",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Vinateros",
+          "connections": [
+            {
+              "to": "Estrella",
+              "distance": 1200
+            },
+            {
+              "to": "Artilleros",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Artilleros",
+          "connections": [
+            {
+              "to": "Vinateros",
+              "distance": 1100
+            },
+            {
+              "to": "Pavones",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Pavones",
+          "connections": [
+            {
+              "to": "Artilleros",
+              "distance": 1000
+            },
+            {
+              "to": "Valdebernardo",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Valdebernardo",
+          "connections": [
+            {
+              "to": "Pavones",
+              "distance": 1500
+            },
+            {
+              "to": "Vicálvaro",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Vicálvaro",
+          "connections": [
+            {
+              "to": "Valdebernardo",
+              "distance": 1200
+            },
+            {
+              "to": "San Cipriano",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "San Cipriano",
+          "connections": [
+            {
+              "to": "Vicálvaro",
+              "distance": 1000
+            },
+            {
+              "to": "Puerta de Arganda",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Puerta de Arganda",
+          "connections": [
+            {
+              "to": "San Cipriano",
+              "distance": 900
+            },
+            {
+              "to": "Rivas Urbanizaciones",
+              "distance": 2400
+            }
+          ]
+        },
+        {
+          "name": "Rivas Urbanizaciones",
+          "connections": [
+            {
+              "to": "Puerta de Arganda",
+              "distance": 2400
+            },
+            {
+              "to": "Rivas Futura",
+              "distance": 1800
+            }
+          ]
+        },
+        {
+          "name": "Rivas Futura",
+          "connections": [
+            {
+              "to": "Rivas Urbanizaciones",
+              "distance": 1800
+            },
+            {
+              "to": "Rivas Vaciamadrid",
+              "distance": 1900
+            }
+          ]
+        },
+        {
+          "name": "Rivas Vaciamadrid",
+          "connections": [
+            {
+              "to": "Rivas Futura",
+              "distance": 1900
+            },
+            {
+              "to": "La Poveda",
+              "distance": 2300
+            }
+          ]
+        },
+        {
+          "name": "La Poveda",
+          "connections": [
+            {
+              "to": "Rivas Vaciamadrid",
+              "distance": 2300
+            },
+            {
+              "to": "Arganda del Rey",
+              "distance": 2200
+            }
+          ]
+        },
+        {
+          "name": "Arganda del Rey",
+          "connections": [
+            {
+              "to": "La Poveda",
+              "distance": 2200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 10",
+      "stations": [
+        {
+          "name": "Hospital Infanta Sofía",
+          "connections": [
+            {
+              "to": "Reyes Católicos",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Reyes Católicos",
+          "connections": [
+            {
+              "to": "Hospital Infanta Sofía",
+              "distance": 1100
+            },
+            {
+              "to": "Baunatal",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Baunatal",
+          "connections": [
+            {
+              "to": "Reyes Católicos",
+              "distance": 1300
+            },
+            {
+              "to": "Manuel de Falla",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Manuel de Falla",
+          "connections": [
+            {
+              "to": "Baunatal",
+              "distance": 1100
+            },
+            {
+              "to": "Marqués de la Valdavia",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Marqués de la Valdavia",
+          "connections": [
+            {
+              "to": "Manuel de Falla",
+              "distance": 900
+            },
+            {
+              "to": "La Moraleja",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "La Moraleja",
+          "connections": [
+            {
+              "to": "Marqués de la Valdavia",
+              "distance": 1200
+            },
+            {
+              "to": "Ronda de la Comunicación",
+              "distance": 1400
+            }
+          ]
+        },
+        {
+          "name": "Ronda de la Comunicación",
+          "connections": [
+            {
+              "to": "La Moraleja",
+              "distance": 1400
+            },
+            {
+              "to": "Las Tablas",
+              "distance": 2000
+            }
+          ]
+        },
+        {
+          "name": "Las Tablas",
+          "connections": [
+            {
+              "to": "Ronda de la Comunicación",
+              "distance": 2000
+            },
+            {
+              "to": "Montecarmelo",
+              "distance": 2700
+            }
+          ]
+        },
+        {
+          "name": "Montecarmelo",
+          "connections": [
+            {
+              "to": "Las Tablas",
+              "distance": 2700
+            },
+            {
+              "to": "Tres Olivos",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Tres Olivos",
+          "connections": [
+            {
+              "to": "Montecarmelo",
+              "distance": 1600
+            },
+            {
+              "to": "Fuencarral",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Fuencarral",
+          "connections": [
+            {
+              "to": "Tres Olivos",
+              "distance": 1600
+            },
+            {
+              "to": "Begoña",
+              "distance": 1800
+            }
+          ]
+        },
+        {
+          "name": "Begoña",
+          "connections": [
+            {
+              "to": "Fuencarral",
+              "distance": 1800
+            },
+            {
+              "to": "Chamartín",
+              "distance": 1500
+            }
+          ]
+        },
+        {
+          "name": "Chamartín",
+          "connections": [
+            {
+              "to": "Begoña",
+              "distance": 1500
+            },
+            {
+              "to": "Plaza de Castilla",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Plaza de Castilla",
+          "connections": [
+            {
+              "to": "Chamartín",
+              "distance": 1100
+            },
+            {
+              "to": "Cuzco",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Cuzco",
+          "connections": [
+            {
+              "to": "Plaza de Castilla",
+              "distance": 1100
+            },
+            {
+              "to": "Santiago Bernabéu",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Santiago Bernabéu",
+          "connections": [
+            {
+              "to": "Cuzco",
+              "distance": 1200
+            },
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Nuevos Ministerios",
+          "connections": [
+            {
+              "to": "Santiago Bernabéu",
+              "distance": 900
+            },
+            {
+              "to": "Gregorio Marañón",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "Gregorio Marañón",
+          "connections": [
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 1300
+            },
+            {
+              "to": "Alonso Martínez",
+              "distance": 1200
+            }
+          ]
+        },
+        {
+          "name": "Alonso Martínez",
+          "connections": [
+            {
+              "to": "Gregorio Marañón",
+              "distance": 1200
+            },
+            {
+              "to": "Tribunal",
+              "distance": 800
+            }
+          ]
+        },
+        {
+          "name": "Tribunal",
+          "connections": [
+            {
+              "to": "Alonso Martínez",
+              "distance": 800
+            },
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Nuevos Ministerios",
+          "connections": [
+            {
+              "to": "Tribunal",
+              "distance": 900
+            },
+            {
+              "to": "Nuevos Ministerios",
+              "distance": 1000
+            }
+          ]
+        },
+        {
+          "name": "Nuevos Ministerios",
+          "connections": [
+            {
+              "to": "Tribunal",
+              "distance": 1000
+            },
+            {
+              "to": "Santiago Bernabéu",
+              "distance": 1100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Línea 11",
+      "stations": [
+        {
+          "name": "Plaza Elíptica",
+          "connections": [
+            {
+              "to": "Abrantes",
+              "distance": 1800
+            }
+          ]
+        },
+        {
+          "name": "Abrantes",
+          "connections": [
+            {
+              "to": "Plaza Elíptica",
+              "distance": 1800
+            },
+            {
+              "to": "Pan Bendito",
+              "distance": 900
+            }
+          ]
+        },
+        {
+          "name": "Pan Bendito",
+          "connections": [
+            {
+              "to": "Abrantes",
+              "distance": 900
+            },
+            {
+              "to": "San Francisco",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "San Francisco",
+          "connections": [
+            {
+              "to": "Pan Bendito",
+              "distance": 1300
+            },
+            {
+              "to": "Carabanchel Alto",
+              "distance": 1100
+            }
+          ]
+        },
+        {
+          "name": "Carabanchel Alto",
+          "connections": [
+            {
+              "to": "San Francisco",
+              "distance": 1100
+            },
+            {
+              "to": "La Peseta",
+              "distance": 1300
+            }
+          ]
+        },
+        {
+          "name": "La Peseta",
+          "connections": [
+            {
+              "to": "Carabanchel Alto",
+              "distance": 1300
+            },
+            {
+              "to": "Las Águilas",
+              "distance": 1800
+            }
+          ]
+        },
+        {
+          "name": "Las Águilas",
+          "connections": [
+            {
+              "to": "La Peseta",
+              "distance": 1800
+            },
+            {
+              "to": "Cuatro Vientos",
+              "distance": 1600
+            }
+          ]
+        },
+        {
+          "name": "Cuatro Vientos",
+          "connections": [
+            {
+              "to": "Las Águilas",
+              "distance": 1600
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

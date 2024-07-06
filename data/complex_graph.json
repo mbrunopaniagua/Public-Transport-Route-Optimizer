@@ -1,0 +1,166 @@
+{
+  "lines": [
+    {
+      "name": "línea 1",
+      "stations": [
+        {
+          "name": "REN",
+          "connections": [
+            {
+              "to": "SOD",
+              "distance": 12
+            },
+            {
+              "to": "FAC",
+              "distance": 8
+            },
+            {
+              "to": "ISS",
+              "distance": 12
+            }
+          ]
+        },
+        {
+          "name": "SOD",
+          "connections": [
+            {
+              "to": "REN",
+              "distance": 12
+            },
+            {
+              "to": "FAC",
+              "distance": 8
+            },
+            {
+              "to": "SEA",
+              "distance": 1
+            }
+          ]
+        },
+        {
+          "name": "FAC",
+          "connections": [
+            {
+              "to": "REN",
+              "distance": 8
+            },
+            {
+              "to": "SOD",
+              "distance": 8
+            },
+            {
+              "to": "BELL",
+              "distance": 2
+            },
+            {
+              "to": "RED",
+              "distance": 9
+            },
+            {
+              "to": "ISS",
+              "distance": 10
+            }
+          ]
+        },
+        {
+          "name": "ISS",
+          "connections": [
+            {
+              "to": "REN",
+              "distance": 12
+            },
+            {
+              "to": "FAC",
+              "distance": 10
+            },
+            {
+              "to": "RED",
+              "distance": 14
+            }
+          ]
+        },
+        {
+          "name": "SEA",
+          "connections": [
+            {
+              "to": "SOD",
+              "distance": 1
+            },
+            {
+              "to": "EAS",
+              "distance": 2
+            }
+          ]
+        },
+        {
+          "name": "BELL",
+          "connections": [
+            {
+              "to": "FAC",
+              "distance": 2
+            },
+            {
+              "to": "NOR",
+              "distance": 1
+            },
+            {
+              "to": "RED",
+              "distance": 8
+            }
+          ]
+        },
+        {
+          "name": "RED",
+          "connections": [
+            {
+              "to": "FAC",
+              "distance": 9
+            },
+            {
+              "to": "ISS",
+              "distance": 14
+            },
+            {
+              "to": "BELL",
+              "distance": 8
+            },
+            {
+              "to": "NOR",
+              "distance": 5
+            }
+          ]
+        },
+        {
+          "name": "EAS",
+          "connections": [
+            {
+              "to": "SEA",
+              "distance": 2
+            },
+            {
+              "to": "NOR",
+              "distance": 8
+            }
+          ]
+        },
+        {
+          "name": "NOR",
+          "connections": [
+            {
+              "to": "EAS",
+              "distance": 8
+            },
+            {
+              "to": "BELL",
+              "distance": 1
+            },
+            {
+              "to": "RED",
+              "distance": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

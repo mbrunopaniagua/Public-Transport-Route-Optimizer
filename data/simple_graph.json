@@ -1,0 +1,140 @@
+{
+  "lines": [
+    {
+      "name": "línea 1",
+      "stations": [
+        {
+          "name": "A",
+          "connections": [
+            {
+              "to": "B",
+              "distance": 5
+            },
+            {
+              "to": "C",
+              "distance": 3
+            },
+            {
+              "to": "D",
+              "distance": 6
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "connections": [
+            {
+              "to": "A",
+              "distance": 5
+            },
+            {
+              "to": "C",
+              "distance": 6
+            },
+            {
+              "to": "E",
+              "distance": 4
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "connections": [
+            {
+              "to": "A",
+              "distance": 3
+            },
+            {
+              "to": "B",
+              "distance": 6
+            },
+            {
+              "to": "D",
+              "distance": 7
+            },
+            {
+              "to": "E",
+              "distance": 6
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "connections": [
+            {
+              "to": "A",
+              "distance": 6
+            },
+            {
+              "to": "C",
+              "distance": 7
+            },
+            {
+              "to": "E",
+              "distance": 2
+            },
+            {
+              "to": "F",
+              "distance": 2
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "connections": [
+            {
+              "to": "B",
+              "distance": 4
+            },
+            {
+              "to": "C",
+              "distance": 6
+            },
+            {
+              "to": "D",
+              "distance": 2
+            },
+            {
+              "to": "G",
+              "distance": 3
+            },
+            {
+              "to": "F",
+              "distance": 4
+            }
+          ]
+        },
+        {
+          "name": "F",
+          "connections": [
+            {
+              "to": "D",
+              "distance": 2
+            },
+            {
+              "to": "E",
+              "distance": 4
+            },
+            {
+              "to": "G",
+              "distance": 5
+            }
+          ]
+        },
+        {
+          "name": "G",
+          "connections": [
+            {
+              "to": "E",
+              "distance": 3
+            },
+            {
+              "to": "F",
+              "distance": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

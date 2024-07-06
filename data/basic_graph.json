@@ -1,0 +1,68 @@
+{
+  "lines": [
+    {
+      "stations": [
+        {
+          "name": "A",
+          "connections": [
+            {
+              "to": "B",
+              "distance": 1
+            },
+            {
+              "to": "C",
+              "distance": 4
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "connections": [
+            {
+              "to": "A",
+              "distance": 1
+            },
+            {
+              "to": "C",
+              "distance": 2
+            },
+            {
+              "to": "D",
+              "distance": 6
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "connections": [
+            {
+              "to": "A",
+              "distance": 4
+            },
+            {
+              "to": "B",
+              "distance": 2
+            },
+            {
+              "to": "D",
+              "distance": 3
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "connections": [
+            {
+              "to": "B",
+              "distance": 6
+            },
+            {
+              "to": "C",
+              "distance": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
