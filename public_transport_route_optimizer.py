@@ -1,7 +1,3 @@
-"""Python 3 implementation of Djikstra's algorithm for finding the shortest
-path between nodes in a graph. Written as a learning exercise, so lots of
-comments and no error handling.
-"""
 from collections import deque
 from pathlib import Path
 from collections import OrderedDict
@@ -19,21 +15,6 @@ class UnknownStationError(Exception):
 
 class PublicTransportMap:
     def __init__(self, filename):
-        """Reads graph definition and stores it. Each line of the graph
-        definition file defines an edge by specifying the start node,
-        end node, and distance, delimited by spaces.
-
-        Stores the graph definition in two properties which are used by
-        Dijkstra's algorithm in the shortest_path method:
-        self.stations = set of all unique stations in the map
-        self.adjacency_list = dict that maps each node to an unordered set of
-        (neighbor, distance) tuples.
-        """
-
-        # Read the graph definition file and store in connections as a list of
-        # lists of [from_node, to_node, distance]. This data structure is not
-        # used by Dijkstra's algorithm, it's just an intermediate step in the
-        # create of self.nodes and self.adjacency_list.
         data = PublicTransportMap.__get_data_from_file(filename)
         self.stations = PublicTransportMap.__get_all_stations(data)
         self.full_stations_map = PublicTransportMap.__get_full_stations_map(data)
@@ -73,39 +54,25 @@ class PublicTransportMap:
         return self.__calculate_path(start_station, end_station, TravelMode.SHORTEST_DISTANCE)
 
     def __calculate_path(self, start_station, end_station, travel_mode):
-        """Uses Dijkstra's algorithm to determine the shortest path from
-        start_node to end_node. Returns (path, distance).
-        """
 
-        unvisited_stations = self.stations.copy()  # All nodes are initially unvisited.
+        unvisited_stations = self.stations.copy()
 
-        # Create a dictionary of each station's distance from start_node. We will
-        # update each station's distance whenever we find a shorter path.
         distance_from_start = self.__init_distance_from_start_station(start_station)
 
-        # Initialize previous_station, the dictionary that maps each station to the
-        # station it was visited from when the shortest path to it was found.
         previous_station = {station: None for station in self.stations}
 
         while unvisited_stations:
-            # Set current_station to the unvisited station with shortest distance
-            # calculated so far.
             current_station = min(unvisited_stations, key=lambda station: distance_from_start[station])
             unvisited_stations.remove(current_station)
 
-            # If current_station's distance is INFINITY, the remaining unvisited
-            # nodes are not connected to start_node, so we're done.
             if distance_from_start[current_station] == INFINITY:
                 break
 
             self.__calculate_path_by_travel_mode(current_station, distance_from_start, previous_station, travel_mode)
 
             if current_station == end_station:
-                break # we've visited the destination station, so we're done
+                break
 
-        # To build the path to be returned, we iterate through the nodes from
-        # end_node back to start_node. Note the use of a deque, which can
-        # append left with O(1) performance.
         path = deque()
         current_station = end_station
         while previous_station[current_station] is not None:
@@ -125,10 +92,6 @@ class PublicTransportMap:
         return distance_from_start
 
     def __calculate_path_by_travel_mode(self, current_station, distance_from_start, previous_station, travel_mode):
-        # For each neighbor of current_station, check whether the total distance
-        # to the neighbor via current_station is shorter than the distance we
-        # currently have for that station. If it is, update the neighbor's values
-        # for distance_from_start and previous_station.
         match travel_mode:
             case TravelMode.SHORTEST_DISTANCE:
                 self.__calculate_distance(current_station, distance_from_start, previous_station)
@@ -163,29 +126,18 @@ def __write_menu():
         if travel_mode_option == MenuOption.EXIT.value:
             break
 
-        __write_transport_option_menu()
-        transport_option = __get_transport_option()
-
-        if transport_option == MenuOption.EXIT.value:
-            break
-
         while 1:
             try:
                 start_station, end_station = __get_start_and_end_station()
-                __find_path(travel_mode_option, transport_option, start_station, end_station)
+                __find_path(travel_mode_option, start_station, end_station)
                 break
             except UnknownStationError as e:
                 print(f"\tERROR: {e}. Please type a correct station name\n")
                 continue
 
 
-def __find_path(travel_mode_option, transport_option, start_station, end_station):
-    public_transport_map = None
-    match transport_option:
-        case Transport.METRO.value:
-            public_transport_map = PublicTransportMap(Transport.METRO.file)
-        case Transport.RENFE.value:
-            public_transport_map = PublicTransportMap(Transport.RENFE.file)
+def __find_path(travel_mode_option, start_station, end_station):
+    public_transport_map = PublicTransportMap(Transport.METRO.file)
 
     if not public_transport_map.exists_station(start_station):
         raise UnknownStationError(f"Station '{start_station}' does not exist")
@@ -202,13 +154,6 @@ def __find_path(travel_mode_option, transport_option, start_station, end_station
             path, steps = public_transport_map.shortest_path(start_station, end_station)
             __write_path(path)
             print(f"\tTotal stations: {steps}")
-
-
-def __write_transport_option_menu():
-    print("\n\t* Transport options *")
-    print(f"\tOption {Transport.METRO}: {Transport.METRO.text}")
-    print(f"\tOption {Transport.RENFE}: {Transport.RENFE.text}")
-    print(f"\tOption {MenuOption.EXIT.value}: {MenuOption.EXIT.text}")
 
 
 def __write_travel_mode_menu():
@@ -245,20 +190,6 @@ def __get_travel_mode_option():
                 return travel_mode_option
         except ValueError:
             print(f"\tERROR: Invalid option. Please enter a number between {MenuOption.EXIT.value} and {TravelMode.FEWER_STATIONS}\n")
-            continue
-
-
-def __get_transport_option():
-    while 1:
-        try:
-            transport_option = int(input(f"\n\tEnter your transport option ({MenuOption.EXIT.value}-{Transport.RENFE}): "))
-            if transport_option < MenuOption.EXIT.value or transport_option > Transport.RENFE.value:
-                print(f"\tERROR: Invalid option. Please enter a value between {MenuOption.EXIT.value} and {Transport.RENFE}\n")
-                continue
-            else:
-                return transport_option
-        except ValueError:
-            print(f"\tERROR: Invalid option. Please enter a number between {MenuOption.EXIT.value} and {Transport.RENFE}\n")
             continue
 
 

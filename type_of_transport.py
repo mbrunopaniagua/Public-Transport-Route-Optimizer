@@ -3,7 +3,6 @@ import enum
 
 class Transport(enum.Enum):
     METRO = 1, "Metro", "metro_stations.json"
-    RENFE = 2, "Renfe", "renfe_stations.json"
 
     def __new__(cls, *args, **kwds):
         obj = object.__new__(cls)
