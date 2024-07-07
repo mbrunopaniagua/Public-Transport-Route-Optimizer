@@ -1,6 +1,6 @@
 # Public-Transport-Route-Optimizer
 
-Aquí puedes ver cómo funciona el optimizador de rutas de transporte para Metro y Renfe para encontrar la ruta más corta entre estaciones tanto considerando las distancias entre ellas en metros como sin tenerlas en cuenta.
+Aquí puedes ver cómo funciona el optimizador de rutas de transporte para Metro para encontrar la ruta más corta entre estaciones tanto considerando las distancias entre ellas en metros como sin tenerlas en cuenta.
 
 ## Introducción
 
